@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+  <!-- Disable all daytime biome spawns -->
+  <set xpath="//spawning/biome/spawn[@time='Day']/@maxcount">
+    <property name="value" value="0" />
+  </set>
+
+  <!-- Optional: also set respawn delay high for Day so nothing sneaks in -->
+  <set xpath="//spawning/biome/spawn[@time='Day']/@respawndelay">
+    <property name="value" value="999999" />
+  </set>
+
+  <!-- Ensure Night spawns are not affected -->
+  <!-- No change to Night entries; they remain as per vanilla or other mods -->
+
+</configs>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+  <!-- Optional safety: ensure POI-sleeper groups have no gamestate spawns if defined here -->
+
+  <set xpath="//gamestages/gamestage/spawn[@group='ZombieBusinessManGroup']/@num">
+    <property name="value" value="0" />
+  </set>
+  <set xpath="//gamestages/gamestage/spawn[@group='ZombieFatCopGroup']/@num">
+    <property name="value" value="0" />
+  </set>
+
+  <!-- Other Blood Moon groups unaffected -->
+
+</configs>
