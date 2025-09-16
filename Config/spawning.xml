@@ -11,7 +11,10 @@
   </set>
 
   <!-- Ensure Night spawns are not affected -->
-  <!-- No change to Night entries; they remain as per vanilla or other mods -->
+  <!-- No change to Night entries; they remain as per vanilla or other mods. -->
+
+  <!-- Disable all POI (sleeper) spawns -->
+  <remove xpath="//spawning/poi" />
 
 </configs>
 

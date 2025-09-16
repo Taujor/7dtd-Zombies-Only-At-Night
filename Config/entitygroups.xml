@@ -1,39 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 <configs>
-  <!-- Define an empty/no-zombies group -->
-  <add xpath="/entitygroups">
-    <entitygroup name="NoZombies">
-      <!-- no entries inside -->
-    </entitygroup>
-  </add>
-
-  <!-- Redirect POI sleeper / special zombie groups to NoZombies -->
-  <!-- Sample group names; adjust to your version -->
-
-  <set xpath="//entitygroup[@name='ZombieBusinessManGroup']">
-    <entitygroup name="ZombieBusinessManGroup">
-      <entity name="NoZombies" prob="1" />
-    </entitygroup>
-  </set>
-
-  <set xpath="//entitygroup[@name='ZombieFatCopGroup']">
-    <entitygroup name="ZombieFatCopGroup">
-      <entity name="NoZombies" prob="1" />
-    </entitygroup>
-  </set>
-
-  <set xpath="//entitygroup[@name='ZombieFarmGroup']">
-    <entitygroup name="ZombieFarmGroup">
-      <entity name="NoZombies" prob="1" />
-    </entitygroup>
-  </set>
-
-  <set xpath="//entitygroup[@name='ZombieWastelandGroup']">
-    <entitygroup name="ZombieWastelandGroup">
-      <entity name="NoZombies" prob="1" />
-    </entitygroup>
-  </set>
-
-  <!-- Add more POI / special groups if needed -->
-  
 </configs>
